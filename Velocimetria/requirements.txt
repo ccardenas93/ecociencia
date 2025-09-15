@@ -1,4 +1,4 @@
-cv2,
+cv2
 matplotlib
 numpy
 opyf
