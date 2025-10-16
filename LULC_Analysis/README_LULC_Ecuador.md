@@ -38,7 +38,9 @@ https://storage.googleapis.com/mapbiomas-public/initiatives/ecuador/coverage/ecu
 
 ---
 
-## Flujo de trabajo del cuaderno (`LULC_analysis.ipynb`)
+## Flujo de trabajo del notebook (`LULC_analysis.ipynb`)
+
+**Notebook en GitHub:** https://github.com/ccardenas93/ecociencia/blob/main/LULC_Analysis/LULC_analysis.ipynb
 
 1. **Instalar dependencias**
    ```bash
@@ -67,7 +69,7 @@ https://storage.googleapis.com/mapbiomas-public/initiatives/ecuador/coverage/ecu
 
 ---
 
-## 🌿 Leyenda simplificada de clases de cobertura
+## Leyenda simplificada de clases de cobertura
 
 | Código | Clase de cobertura |
 |--------|--------------------|
@@ -82,24 +84,24 @@ https://storage.googleapis.com/mapbiomas-public/initiatives/ecuador/coverage/ecu
 | 5.1 | Río, lago u océano |
 | … | … |
 
-(Consulta el cuaderno para ver la leyenda completa utilizada en MapBiomas Ecuador.)
+(Consulta el notebook para ver la leyenda completa utilizada en MapBiomas Ecuador.)
 
 ---
 
 ## 📈 Ejemplos de gráficos
 
-### 🔸 Cambios totales de cobertura (2004–2023)
-![Ejemplo de cambio total](https://user-images.githubusercontent.com/example/LULC_total_change.png)
+### 🔸 Cambios por cuenca hidrográfica
+![Ejemplo por cuenca](https://github.com/ccardenas93/ecociencia/blob/main/LULC_Analysis/Images/cuenca.png?raw=true)
 
-Gráfico de barras horizontales que muestra el cambio total en porcentaje de cada clase de cobertura a nivel nacional.
-Los valores positivos indican **ganancia** de área, y los negativos, **pérdida**.
+Cada gráfico muestra los cambios de cobertura (en %) para una cuenca específica (`HYBAS_ID`).
 
 ---
 
-### 🔸 Cambios por cuenca hidrográfica
-![Ejemplo por cuenca](https://user-images.githubusercontent.com/example/LULC_basin_change.png)
+### 🔸 Cambios totales de cobertura (2004–2023)
+![Ejemplo de cambio total](https://github.com/ccardenas93/ecociencia/blob/main/LULC_Analysis/Images/general.png?raw=true)
 
-Cada gráfico muestra los cambios de cobertura (en %) para una cuenca específica (`HYBAS_ID`).
+Gráfico de barras horizontales que muestra el cambio total en porcentaje de cada clase de cobertura a nivel nacional.
+Los valores positivos indican **ganancia** de área, y los negativos, **pérdida**.
 
 ---
 
@@ -115,7 +117,6 @@ Disponible en: https://ecuador.mapbiomas.org
 ## 👨‍💻 Autor
 
 **Carlos Cárdenas**  
-Análisis de Datos y Modelamiento Geoespacial — Ecociencia  
 GitHub: https://github.com/ccardenas93
 
 ---
