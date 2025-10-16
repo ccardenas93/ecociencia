@@ -1,11 +1,11 @@
-# 🌎 Análisis de Cobertura y Uso del Suelo (LULC) — Ecuador
+# Análisis de Cobertura y Uso del Suelo (LULC) — Ecuador
 
 Este proyecto realiza un **análisis de cambios en la cobertura y uso del suelo** en Ecuador utilizando los datos de [MapBiomas Ecuador](https://ecuador.mapbiomas.org).
 El objetivo es comparar mapas anuales (por ejemplo 2004–2023) para evaluar las transiciones entre coberturas naturales y antrópicas dentro de cuencas hidrográficas.
 
 ---
 
-## 🧰 Características principales
+## Características principales
 
 - Enmascaramiento automático de los mapas de MapBiomas usando los límites de cuencas (`HYBAS_ID`).
 - Cálculo de estadísticas zonales (`zonal_stats`) para determinar el porcentaje de cada clase de cobertura dentro de una cuenca.
@@ -15,7 +15,7 @@ El objetivo es comparar mapas anuales (por ejemplo 2004–2023) para evaluar las
 
 ---
 
-## 🗺️ MapBiomas Ecuador
+## MapBiomas Ecuador
 
 **Sitio web oficial:** https://ecuador.mapbiomas.org
 
@@ -38,7 +38,7 @@ https://storage.googleapis.com/mapbiomas-public/initiatives/ecuador/coverage/ecu
 
 ---
 
-## 🧪 Flujo de trabajo del cuaderno (`LULC_analysis.ipynb`)
+## Flujo de trabajo del cuaderno (`LULC_analysis.ipynb`)
 
 1. **Instalar dependencias**
    ```bash
@@ -53,7 +53,7 @@ https://storage.googleapis.com/mapbiomas-public/initiatives/ecuador/coverage/ecu
 
 ---
 
-## 📊 Salidas principales
+## Salidas principales
 
 - **CSV:** `landcover_percentage.csv`
   Contiene las columnas:
