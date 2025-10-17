@@ -22,7 +22,7 @@ El objetivo es comparar mapas anuales (por ejemplo 2004–2023) para evaluar las
 MapBiomas Ecuador provee mapas anuales de cobertura y uso del suelo desde **1985 hasta 2023**.
 Los mapas pueden descargarse en formato **GeoTIFF** desde el bucket público de Google Cloud.
 
-### 🔗 Ejemplo: enlaces de descarga directa
+### Ejemplo: enlaces de descarga directa
 
 Para descargar un mapa de cobertura de un año específico, copia el enlace correspondiente y pégalo en tu navegador:
 
@@ -88,16 +88,16 @@ https://storage.googleapis.com/mapbiomas-public/initiatives/ecuador/coverage/ecu
 
 ---
 
-## 📈 Ejemplos de gráficos
+## Ejemplos de gráficos
 
-### 🔸 Cambios por cuenca hidrográfica
+### Cambios por cuenca hidrográfica
 ![Ejemplo por cuenca](https://github.com/ccardenas93/ecociencia/blob/main/LULC_Analysis/Images/cuenca.png?raw=true)
 
 Cada gráfico muestra los cambios de cobertura (en %) para una cuenca específica (`HYBAS_ID`).
 
 ---
 
-### 🔸 Cambios totales de cobertura (2004–2023)
+### Cambios totales de cobertura (2004–2023)
 ![Ejemplo de cambio total](https://github.com/ccardenas93/ecociencia/blob/main/LULC_Analysis/Images/general.png?raw=true)
 
 Gráfico de barras horizontales que muestra el cambio total en porcentaje de cada clase de cobertura a nivel nacional.
@@ -105,7 +105,7 @@ Los valores positivos indican **ganancia** de área, y los negativos, **pérdida
 
 ---
 
-## 🧾 Cita recomendada
+## Cita recomendada
 
 Si utilizas los datos de MapBiomas Ecuador, por favor cita:
 
@@ -114,14 +114,13 @@ Disponible en: https://ecuador.mapbiomas.org
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Carlos Cárdenas**  
 GitHub: https://github.com/ccardenas93
 
 ---
 
-## 🪶 Licencia
+## Licencia
 
-Este proyecto se distribuye bajo la **Licencia MIT**.
 Los datos de MapBiomas están sujetos a los Términos de Uso de MapBiomas: https://mapbiomas.org/termos-de-uso
