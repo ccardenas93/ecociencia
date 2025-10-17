@@ -1,9 +1,9 @@
-name: Deploy Enhanced Bathymetry to GitHub Pages
+name: Deploy Enhanced Bathymetry to GitHub Pages (DISABLED)
 
 on:
-  push:
-    branches: [ main ]
-    paths: [ 'enhanced-bathymetry/**' ]
+  # push:
+  #   branches: [ main ]
+  #   paths: [ 'enhanced-bathymetry/**' ]
   workflow_dispatch:
 
 permissions:

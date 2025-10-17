@@ -8,8 +8,8 @@ const nextConfig = {
   },
   output: 'export',
   trailingSlash: true,
-  basePath: '/ecociencia/enhanced-bathymetry',
-  assetPrefix: '/ecociencia/enhanced-bathymetry',
+  basePath: '/enhanced-bathymetry',
+  assetPrefix: '/enhanced-bathymetry',
   distDir: 'out',
 }
 
