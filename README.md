@@ -26,8 +26,7 @@ rápidamente el código y reproducir los estudios.
 ├── Cauce_Principal/         # Notebook para extraer el cauce principal por cuenca
 ├── LULC_Analysis/           # Análisis de uso/cobertura del suelo con MapBiomas
 ├── Velocimetria/            # Aplicación de escritorio para análisis de flujo óptico
-├── enhanced-bathymetry/     # Aplicación web (Next.js) para batimetría sintética
-└── README.md                # Este documento
+└── enhanced-bathymetry/     # Aplicación web (Next.js) para batimetría sintética
 ```
 
 Cada directorio incluye notebooks (`.ipynb`), scripts o aplicaciones listos para
@@ -135,9 +134,5 @@ caudales por sección y visualizaciones interactivas en un gráfico responsivo.
 
 - Cada proyecto incluye enlaces a notebooks en Google Colab o instrucciones
   detalladas para reproducir los análisis.
-- Se agradecen issues, pull requests o sugerencias mediante el repositorio de
-  GitHub.
 - Autor principal: **Carlos Cárdenas** ([@ccardenas93](https://github.com/ccardenas93)).
 
-¡Explora las carpetas, ejecuta los notebooks y adapta las herramientas a tus
-propios estudios ambientales!
