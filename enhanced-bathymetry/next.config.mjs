@@ -10,6 +10,7 @@ const nextConfig = {
   trailingSlash: true,
   basePath: '/ecociencia/enhanced-bathymetry',
   assetPrefix: '/ecociencia/enhanced-bathymetry',
+  distDir: 'out',
 }
 
 export default nextConfig
