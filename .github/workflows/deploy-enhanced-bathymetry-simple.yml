@@ -47,6 +47,18 @@ jobs:
           mkdir -p ../deploy/enhanced-bathymetry
           cp -r out/* ../deploy/enhanced-bathymetry/
 
+      - name: Redirect root to enhanced-bathymetry
+        run: |
+          mkdir -p deploy
+          cat > deploy/index.html <<'HTML'
+          <!doctype html>
+          <meta charset="utf-8">
+          <meta http-equiv="refresh" content="0; url=./enhanced-bathymetry/">
+          <title>Redirecting…</title>
+          <script>location.replace('./enhanced-bathymetry/');</script>
+          <a href="./enhanced-bathymetry/">Ir a Bathymetry</a>
+          HTML
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
