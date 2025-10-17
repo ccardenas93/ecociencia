@@ -15,7 +15,7 @@ import {
 } from "recharts"
 
 const FullyCustomizableBathymetry = () => {
-  // State for customization
+  // State for customizations
   const [totalDistance, setTotalDistance] = useState(20)
   const [sectionsCount, setSectionsCount] = useState(11)
   const [customMode, setCustomMode] = useState(false)
